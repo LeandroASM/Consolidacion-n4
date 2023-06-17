@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.container{
+    width: 70%;
+    margin: 5rem auto;
+    background-color: rgb(241, 241, 241);
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+.ingreso-datos{
+    width: 40%;
+}
+.presupuesto{
+    background-color: rgb(195, 251, 221);
+    border-radius: 10px;
+    border: 2px solid rgb(19, 188, 0);
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 95%;
+}
+
+.presupuesto input{
+    background-color: transparent;
+    border: 2px solid rgb(173, 173, 173);
+    width: 100%;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    border-radius: 3px;
+}
+
+.presupuesto button{
+    width: 8rem;
+    height: 1.5rem;
+    background-color: rgb(0, 168, 34);
+    color: white;
+    border: none;
+}
+
+.gastos{
+    background-color: rgb(255, 211, 211);
+    border-radius: 10px;
+    border: 2px solid rgb(188, 0, 0);
+    padding: 10px;
+    width: 95%;
+}
+
+.gastos input{
+    background-color: transparent;
+    border: 2px solid rgb(173, 173, 173);
+    width: 100%;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    border-radius: 3px;
+}
+
+.gastos button{
+    width: 8rem;
+    height: 1.5rem;
+    background-color: rgb(168, 0, 0);
+    color: white;
+    border: none;
+}
+
+.calcular-datos{
+    width: 60%;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 1rem;
+}
+.info{
+
+    width: 95%;
+    display: flex;
+    justify-content: space-around;   
+    margin-bottom: 8px; 
+}
+
+table{
+    margin: 0 auto;
+    width: 50%;
+    padding: 0;
+}
+tr{
+    display: flex;
+    justify-content: space-between;
+}
+
+h4{
+    margin-bottom: 5px;
+}
+
+

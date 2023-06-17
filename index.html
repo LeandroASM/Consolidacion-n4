@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presupuesto</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://kit.fontawesome.com/b62448c0e0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <section class="ingreso-datos">
+            <form class="presupuesto" id="presupuesto">
+                <label for="">Ingresa tu presupuesto</label><br>
+                <input type="text" id="presupuestoIngresado"><br>
+                <button>Calcular</button>
+            </form>
+            <form class="gastos" id="gastos">
+                <label for="">Ingresa el nombre del gasto</label><br>
+                <input type="text" id="nombreGasto"><br>
+                <label for="">Ingresa el valor de gasto</label><br>
+                <input type="text" id="gastosIngresado"><br>
+                <button>Añadir Gasto</button>
+            </form>
+        </section>
+        <section class="calcular-datos">
+            <div class="info">
+                <div class="info__presupuesto">
+                    <h4>PRESUPUESTO</h4>
+                    <span id="mostrarPresupuesto"></span>
+                </div>
+                <div class="info__gastos">
+                    <h4>GASTOS</h4>
+                    <span id="mostrarGasto"></span>
+                </div>
+                <div class="info__saldo">
+                    <h4>SALDO</h4>
+                    <span id="mostrarSaldo"></span>
+                </div>
+            </div>
+            <div class="listaGastos">
+                <table>
+                    <thead>
+                      <tr>
+                          <td>GASTO</td>
+                          <td>VALOR</td>
+                          <td></td>
+                      </tr>
+                    </thead>  
+                    <hr>
+                    <tbody id='datoTabla'>
+                      
+                    </tbody>
+                  </table>
+                  
+            </div>
+        </section>
+    </div>
+    <script src="assets/js/scripts.js"></script>
+</body>
+
+</html>
