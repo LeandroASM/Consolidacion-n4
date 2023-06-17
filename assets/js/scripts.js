@@ -64,11 +64,8 @@ function mostrarGastos(gastos){
     }
 }
 
-function eliminarGasto(index){
-
-
-    gastos.splice(index,1);
-
-    injGastos(gastos);
+function eliminarGasto(indice){
+    gastos.splice(indice,1);
+    mostrarGastos(gastos);
     inyectarGasto(gastos);
 }
